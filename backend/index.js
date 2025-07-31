@@ -17,7 +17,7 @@ let app = express()
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
- origin:["https://e-commerce-ai-frontendone.onrender.com" , "http://localhost:5174"],
+ origin:["https://e-commerce-ai-frontendone.onrender.com" , "https://e-commerce-ai-admin.onrender.com"],
  credentials:true
 }))
 
