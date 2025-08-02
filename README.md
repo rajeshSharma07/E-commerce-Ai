@@ -65,8 +65,7 @@ Admin routes are separated and protected for future JWT-based auth.
 ---
 
 ## 🗃 Project Structure
-
-text
+```text
 onecart/
 ├── frontend/                # Customer-facing React app
 │   ├── public/              # Static files (index.html, favicon, etc.)
@@ -107,7 +106,6 @@ onecart/
 │   └── package.json
 
 └── README.md              # Root project documentation
-
 
 ## ⚙ Setup Instructions
 
